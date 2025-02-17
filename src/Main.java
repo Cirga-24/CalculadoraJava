@@ -79,6 +79,14 @@ public class Main {
                     System.out.println("El resultado es: " + resultado);
                     Salir = true;
                     break;
+                case 7:
+                    System.out.println("Ingreso a la opcion de raiz");
+                    System.out.print("Ingrese el numero: ");
+                    num1 = scanner.nextDouble();
+                    resultado = Math.sqrt(num1);
+                    System.out.println("El resultado es: " + resultado);
+                    Salir = true;
+                    break;
             }
         } while (!Salir);
     }
